@@ -10,3 +10,7 @@ def fibonacci(n):
 if __name__ == "__main__":
     n = int(input("Enter the number of terms: "))
     fibonacci(n)
+
+
+def square(n):
+    print(f"The square of {n} is {n*n}")
